@@ -1,0 +1,11 @@
+{
+  "name": "lab3",
+  "version": "0.0.1",
+  "description": "A JS calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marta Arcones",
+  "license": "ISC"
+}
