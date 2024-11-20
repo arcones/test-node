@@ -6,7 +6,7 @@ program
   .description('Suma dos números enteros')
   .action((numero1, numero2) => {
     const result = parseInt(numero1, 10) + parseInt(numero2, 10);
-    console.log(`==>  ${result} <==`);
+    console.log(`===>  ${result} <===`);
   });
 
 program
@@ -14,7 +14,7 @@ program
   .description('Resta dos números enteros')
   .action((numero1, numero2) => {
     const result = parseInt(numero1, 10) - parseInt(numero2, 10);
-    console.log(`==>  ${result} <==`);
+    console.log(`===>  ${result} <===`);
   });
 
 program.parse(process.argv);
